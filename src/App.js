@@ -11,10 +11,10 @@ import Products from './pages/Products';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#ff4081', // Cor primária da pâtisserie
+      main: '#F1E8DF', // Cor primária da pâtisserie
     },
     secondary: {
-      main: '#f50057',
+      main: '#C18C60',
     },
   },
 });
