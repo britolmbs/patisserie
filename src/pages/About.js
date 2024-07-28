@@ -11,7 +11,7 @@ const About = () => {
                 <Grid item xs={12} md={4} style={{ display: 'flex', justifyContent: 'center' }}>
                     <Avatar
                         alt="Sua Foto"
-                        src="assets/images/image.jpg"
+                        src="assets/images/avatar.PNG"
                         sx={{ width: 200, height: 200 }}
                     />
                 </Grid>
