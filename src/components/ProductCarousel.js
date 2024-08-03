@@ -1,16 +1,18 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Button, Grid } from '@mui/material';
+import bolo1 from '../assets/images/bolo1.png';
+import bolo2 from '../assets/images/bolo2.png';
 
 const products = [
     { 
         name: 'Produto 1', 
-        image: 'assets/images/image1.png', 
+        image: bolo1, 
         description: 'Descrição do Produto 1',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
         name: 'Produto 2', 
-        image: 'assets/images/image2.png', 
+        image: bolo2, 
         description: 'Descrição do Produto 2',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
@@ -18,19 +20,22 @@ const products = [
 
 const ProductCards = () => {
     return (
-        <Grid container spacing={4}>
+        <Grid container spacing={4} justifyContent="center">
             {products.map((product, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
-                    <Card>
+                    <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             component="img"
-                            height="200"
+                            height="250"
                             image={product.image}
                             alt={product.name}
+                            sx={{ objectFit: 'contain' }}
                         />
                         <CardContent>
-                            <Typography variant="h5">{product.name}</Typography>
-                            <Typography variant="body2" color="textSecondary">
+                            <Typography gutterBottom variant="h5" component="div">
+                                {product.name}
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
                                 {product.description}
                             </Typography>
                             <Button
@@ -38,7 +43,7 @@ const ProductCards = () => {
                                 color="primary"
                                 href={product.whatsappLink}
                                 target="_blank"
-                                style={{ marginTop: '10px' }}
+                                sx={{ marginTop: '10px' }}
                             >
                                 Compra via WhatsApp
                             </Button>
