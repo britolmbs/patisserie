@@ -25,7 +25,7 @@ const App = () => {
       <CssBaseline />
       <Router>
         <Navbar />
-        <Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+        <Container sx={{ mt: 4, mb: 4 }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

@@ -4,16 +4,16 @@ import avatar from '../assets/images/avatar.png'; // Ajuste o caminho conforme n
 
 const About = () => {
     return (
-        <Container id="about" style={{ padding: '2rem 0' }}>
+        <Container id="about" sx={{ py: 4 }}>
             <Typography variant="h4" align="center" gutterBottom>
                 Sobre Nós
             </Typography>
-            <Grid container spacing={2} alignItems="center">
-                <Grid item xs={12} sm={4}>
+            <Grid container spacing={4} alignItems="center">
+                <Grid item xs={12} sm={4} display="flex" justifyContent="center">
                     <Avatar
                         alt="Minha Foto"
                         src={avatar}
-                        sx={{ width: 200, height: 200, margin: '0 auto', borderRadius: '50%' }}
+                        sx={{ width: 200, height: 200, borderRadius: '50%' }}
                     />
                 </Grid>
                 <Grid item xs={12} sm={8}>

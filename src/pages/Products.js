@@ -1,10 +1,10 @@
-import { Container, Typography } from "@mui/material";
-import React from "react";
-import ProductCarousel from "../components/ProductCarousel";
+import React from 'react';
+import { Container, Typography } from '@mui/material';
+import ProductCarousel from '../components/ProductCarousel';
 
 const Product = () => {
-    return(
-        <Container id="products" style={{ padding: '2rem 0' }}>
+    return (
+        <Container id="products" sx={{ py: 4 }}>
             <Typography variant="h4" align="center" gutterBottom>
                 Nossos Produtos
             </Typography>
@@ -12,4 +12,5 @@ const Product = () => {
         </Container>
     );
 };
+
 export default Product;
