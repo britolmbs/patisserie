@@ -28,19 +28,16 @@ O site da Patisserie Nathália Valle é uma plataforma online que exibe uma vari
 Navegue até o diretório do projeto:
 
 bash
-Copy
 cd patisserie-nathalia-valle
 
 Instale as dependências:
 
 bash
-Copy
 npm install
 
 Inicie o servidor de desenvolvimento:
 
 bash
-Copy
 npm start
 
 Abra o navegador e acesse http://localhost:3000 para ver o site em ação.
