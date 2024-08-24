@@ -18,67 +18,67 @@ const products = [
     { 
         name: 'Elegância Floral', 
         image: bolo1, 
-        description: 'O Bolo Elegância Floral é uma obra-prima minimalista que combina sofisticação e delicadeza. Com uma cobertura impecável de creme branco, adornada com detalhes sutis de folhas de ouro comestíveis, este bolo é coroado com um arranjo vibrante de flores vermelhas, trazendo um toque de natureza e cor. Ideal para celebrações especiais, este bolo não só encanta pelo visual, mas também promete uma experiência de sabor inesquecível.',
+        description: 'O Bolo Elegância Floral é uma obra-prima minimalista com creme branco, folhas de ouro e flores vermelhas. Sofisticado e delicado, é ideal para celebrações especiais e oferece um sabor inesquecível.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
         name: 'Aniversário Encantado', 
         image: bolo2, 
-        description: 'O Bolo Aniversário Encantado é uma celebração alegre e colorida do ano de vida. Com uma cobertura suave de creme branco, o bolo é decorado com balões de pasta americana em tons pastel, fitas coloridas e pequenos pontos de confeitos, trazendo um ar festivo e divertido.',
+        description: 'O Bolo Aniversário Encantado celebra com alegria e cor, coberto com creme branco, balões de pasta americana em tons pastel, fitas coloridas e confeitos, criando um ar festivo e divertido.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
         name: ' Jardim de Delícias', 
         image: bolo3, 
-        description: 'O Bolo Jardim de Delícias é uma combinação harmoniosa de elegância e frescor natural. Com uma cobertura de creme branco texturizada com um padrão geométrico verde, este bolo é decorado com flores brancas e verdes vibrantes, folhas de eucalipto e um delicado macaron no topo. A mistura de elementos naturais e detalhes sofisticados faz deste bolo uma escolha perfeita para celebrações que pedem um toque de natureza e requinte. Ideal para casamentos, aniversários ou eventos especiais, o Bolo Jardim de Delícias promete encantar tanto pelo visual quanto pelo sabor.',
+        description: 'O Bolo Jardim de Delícias combina elegância e frescor com creme branco texturizado, flores brancas e verdes, folhas de eucalipto e um macaron. Perfeito para eventos que pedem natureza e requinte.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
         name: ' Naked Cake de Sonho', 
         image: naked, 
-        description: 'O Naked Cake de Sonho é uma delícia visual e gustativa que celebra a simplicidade e a autenticidade dos sabores. Com camadas generosas de bolo de chocolate intercaladas com um cremoso recheio de creme de baunilha, este bolo é finalizado com uma cobertura de creme e raspas de chocolate rosa no topo. A fita personalizada adiciona um toque de elegância, tornando-o perfeito para qualquer ocasião especial. Este naked cake é ideal para quem aprecia a beleza rústica e o sabor caseiro, proporcionando uma experiência doce e inesquecível.',
+        description: 'O Naked Cake de Sonho celebra a simplicidade com camadas de bolo de chocolate e creme de baunilha, coberto com creme e raspas de chocolate rosa. Elegante e rústico, é perfeito para ocasiões especiais.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
         name: ' Naked Cake de Luxo', 
         image: naked2, 
-        description: 'O Naked Cake de Luxo é uma celebração da sofisticação e do sabor autêntico. Com camadas ricas de bolo de baunilha intercaladas com um cremoso recheio de creme de confeiteiro, este bolo é decorado com elegantes rosetas de creme no topo e raspas de chocolate branco. A fita dourada personalizada adiciona um toque de requinte, tornando-o perfeito para ocasiões especiais que pedem um toque de elegância. Este naked cake é ideal para quem aprecia a beleza rústica com um toque de luxo, proporcionando uma experiência visual e gustativa inesquecível.',
+        description: 'O Naked Cake de Luxo combina sofisticação e sabor com camadas de bolo de baunilha, recheio de creme de confeiteiro, rosetas de creme e raspas de chocolate branco. A fita dourada adiciona requinte, ideal para ocasiões especiais.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
         name: ' Doce União', 
        image: bemcasado, 
-        description: 'O Doce União é um clássico bem-casado que simboliza amor e felicidade em cada mordida. Composto por duas camadas macias de pão de ló, recheadas com um delicioso doce de leite e envoltas em uma fina camada de açúcar, este doce é embalado com elegância em papel branco e adornado com um laço dourado. Perfeito para casamentos, aniversários e celebrações especiais, o Doce União é uma lembrança doce e sofisticada que encanta tanto pelo sabor quanto pela apresentação.',
+        description: 'O Doce União é um clássico bem-casado com camadas de pão de ló, recheio de doce de leite e cobertura de açúcar. Embalado em papel branco com laço dourado, é perfeito para casamentos e celebrações especiais.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
         name: ' Laços de Doçura', 
        image: bemcasado2, 
-        description: 'Os Laços de Doçura são bem-casados que celebram a união e a alegria com um toque de cor e elegância. Com duas camadas macias de pão de ló recheadas com um delicioso doce de leite, cada bem-casado é envolto em papel crepom branco e adornado com laços de cetim em tons vibrantes de azul e laranja. Perfeitos para casamentos, chás de bebê, aniversários e outras celebrações especiais, os Laços de Doçura são uma lembrança encantadora que combina tradição e um toque de modernidade, proporcionando uma experiência doce e memorável.',
+        description: 'Os Laços de Doçura são bem-casados de pão de ló com doce de leite, embalados em papel crepom branco e laços de cetim azul e laranja. Ideais para casamentos e celebrações, combinam tradição e modernidade.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
-        name: 'Produto 8', 
+        name: 'Brownie Dourado', 
         image: brownie, 
-        description: 'Descrição do Produto 2',
+        description: 'Experimente o Brownie Dourado, feito com ingredientes selecionados para uma textura macia e sabor intenso de chocolate. Embrulhado com fita dourada, é perfeito para presentear ou tornar qualquer momento especial.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
-        name: 'Produto 9', 
+        name: 'Brownies Elegance', 
         image: brownie2, 
-        description: 'Descrição do Produto 2',
+        description: 'Os Brownies Elegance são brownies artesanais envoltos em laços dourados ou lilás, perfeitos para ocasiões especiais. Feitos com ingredientes premium, oferecem um sabor rico e indulgente, ideal para presentear ou servir em eventos.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
-        name: 'Produto 10', 
+        name: 'Caixa de Delícias Gourmet', 
        image: doce, 
-        description: 'Descrição do Produto 2',
+        description: 'A Caixa de Delícias Gourmet é uma seleção de brigadeiros e doces finos artesanais, perfeitos para presentear ou eventos especiais. Combinando sabores tradicionais e sofisticados, oferece uma experiência inesquecível.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
     { 
-        name: 'Produto 11', 
+        name: 'Seleção de Doces Finos', 
        image: doce2, 
-        description: 'Descrição do Produto 2',
+        description: 'A Seleção de Doces Finos é uma caixa requintada de confeitaria artesanal, combinando sabores clássicos e contemporâneos. Ideal para presentear ou adicionar elegância a qualquer ocasião, oferece uma experiência única.',
         whatsappLink: 'https://wa.me/+5521999762602'
     },
 ];

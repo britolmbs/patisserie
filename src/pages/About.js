@@ -18,10 +18,7 @@ const About = () => {
                 </Grid>
                 <Grid item xs={12} sm={8}>
                     <Typography variant="body1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium dictum placerat.
-                        Etiam ac ipsum id nibh convallis consectetur at vitae mauris. Pellentesque quam libero,
-                        tincidunt quis ipsum at, placerat pharetra mauris. Quisque et mi velit. Nullam placerat
-                        massa at velit auctor aliquet. Morbi vel fermentum quam. Aenean vel est tortor.
+                    Olá! Meu nome é Nathalia e sou estudante de Química na Universidade Rural do Rio de Janeiro. Resido em Itaguaí e descobri minha paixão pela confeitaria durante a pandemia, momento em que me reinventei. Desde então, venho me aperfeiçoando a cada dia, dedicando-me à criação de bolos, brownies e docinhos personalizados, todos feitos sob encomenda. Estou animada para compartilhar meu amor pela patisserie com você!
                     </Typography>
                 </Grid>
             </Grid>
